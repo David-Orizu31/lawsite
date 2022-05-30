@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Inter&family=Nunito:wght@300&family=Poppins:wght@300;400&family=Roboto&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+
+body p {
+    font-size: 17px;
+}
+
+.btn-consult {
+  background: #f3a744;
+  color: white;
+  border-radius: 0px;
+  border: 1px solid #f3a744;
+}
+
+.btn-consult:hover {
+    color: #f3a744;
+    background: transparent;
+  }
+
+.head-call {
+    margin-left: 20px;
+}
+
+.head-call i {
+    color: #f3a744;
+}
+
+.navbar {
+    background: #383a3f;
+}
+
+.navbar #collapsibleNavId .navbar-nav .nav-item .nav-link {
+    color: white;
+    margin-right: 10px;
+}
+
+.navbar #collapsibleNavId .navbar-nav .nav-item.active .nav-link {
+    color: #f3a744;
+}
+
+.navbar #collapsibleNavId .navbar-nav .nav-item .nav-link:hover {
+    color: #f3a744;
+}
+
+.navbar .navbar-toggler {
+    font-size: 22px;
+    border: none;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.banner-area {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/female-lawyer-2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    padding-top: 150px;
+}
+
+.text-gold {
+    color: #f3a744;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.b-card-text {
+    font-size: 16px;
+}
+
+.btn-more {
+    background-color: #383a3f;
+    color: white;
+    border: 1px solid #383a3f;
+    border-radius: 0px;
+}
+
+.btn-more:hover {
+    color: #383a3f;
+    background: transparent;
+}
+
+.testimonial-area {
+    box-shadow: 3.801px 7.432px 15px 2px rgba(199, 163, 113, 0.26);
+}
+
+.footer-area {
+    background: #383a3f;
+}
+
+.foot-head {
+    border-bottom: 1px solid #f3a744;
+    width: 150px;
+    padding-bottom: 5px;
+}
+
+.foot-text {
+    font-size: 16px;
+}
+
+.foot-links {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.foot-links li a {
+    text-decoration: none;
+    color: white;
+    line-height: 2.2em;
+}
+
+.foot-links li a:hover {
+    color: #f3a744;
+}
+
+.last-area {
+    background: #272523;
+}
+
+.social-icons {
+    text-decoration: none;
+    color: #f3a744;
+    font-size: 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+.social-icons:hover {
+    color: white;
+}

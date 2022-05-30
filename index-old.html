@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Law Site</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Font Awesome -->
+    <script src="js/font-awesome.js"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <div class="container">
+            <a class="navbar-brand text-white" href="#"><h2>Lawsite</h2></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars text-white" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0 offset-lg-1">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">People</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <!-- <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                </form>
+            </div>
+      </div>
+    </nav>
+
+    <div class="background-area">
+        <video autoplay muted loop class="video-player">
+            <source  src="img/maqs-video.mp4" type="video/mp4" />
+        </video>
+        <div class="container">
+            <div class="col-lg-6 offset-lg-2 video-text text-center">
+                <h1 class="text-white">Welcome to Lawsite</h1>
+                <p>Welcome to Lawsite. We are nearby 180 experts in business law driven by a relentless desire to create value. And our doors – are always open. So come on in and tell us more about the challenges facing your business.</p>
+            </div>
+        </div>
+    </div>
+    <section class="about-us">
+    <div class="row">
+        <div class="col-md-6 text-area text-white g-0">
+            <h3 class="text-uppercase">About Lawsite</h3>
+            <br>
+            <p class="text-white"><b>Lawsite is one of Sweden's leading business law law firms. Our roots go all the way back to the 19th century, but the modern Lawsite we are today was founded in 2002.</b></p>
+            <br>
+            <p class="text-white">Since then, it has gone away. We have grown rapidly to today be one of the largest law firms in Sweden, with offices in Gothenburg, Malmö, Stockholm and Sundsvall. Our starting point is to deliver legal services with the highest quality and believe that this is done in the best way through a modern organization and a proactive thinking.</p>
+            <br>
+            <a href="#" class="btn btn-more text-uppercase px-5 py-3">Learn More</a>
+        </div>
+        <div class="col-md-6 g-0">
+            <img src="img/about-business-law.jpeg" alt="about-business-law" class="img img-responsive">
+        </div>
+    </div>
+</section>
+    
+      
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script>
+      $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass('show-bg-color', $(this).scrollTop() > $nav.height());
+  });
+});
+    </script>
+  </body>
+</html>

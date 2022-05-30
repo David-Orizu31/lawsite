@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Inter&family=Nunito:wght@300&family=Poppins:wght@300;400&family=Roboto&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+
+body p {
+    font-size: 18px;
+}
+
+.navbar #collapsibleNavId .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.navbar.show-bg-color {
+    background-color: #24272f;
+}
+
+.navbar .navbar-toggler {
+    font-size: 22px;
+    border: none;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.background-area {
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+.video-text {
+    position: absolute;
+    top: 0;
+    margin-top: 200px;
+}
+
+.video-text h1 {
+    font-size: 100px;
+}
+
+.video-text p {
+    color: #fabb69;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.video-player {
+    position: absolute;
+    min-width: 100%;
+    min-height: 700px;
+}
+
+.about-us {
+    position: relative;
+}
+
+.about-us .text-area {
+    background: #804a03;
+    padding: 50px 40px 50px 40px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-more {
+    color: white;
+    border: 2px solid white;
+    border-radius: 0px;
+}
