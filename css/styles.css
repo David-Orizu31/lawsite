@@ -57,7 +57,7 @@ body p {
 }
 
 .banner-area {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/female-lawyer-2.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/brian-2.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     min-height: 500px;
@@ -179,7 +179,7 @@ body p {
 }
 
 .other-banners {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/about-law.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/about-law.jpg) no-repeat center;
     background-size: cover;
     min-height: 300px;
     padding-top: 150px;
