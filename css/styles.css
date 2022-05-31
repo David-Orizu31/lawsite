@@ -88,8 +88,50 @@ body p {
     background: transparent;
 }
 
+.feature-area {
+    background: #914b06;
+    border-radius: 5px;
+    min-height: 260px;
+}
+
+.feature-text p {
+   font-size: 16px;
+}
+
 .testimonial-area {
     box-shadow: 3.801px 7.432px 15px 2px rgba(199, 163, 113, 0.26);
+}
+
+.contact-banner {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/law-bg-3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+.contact-banner .contact-area {
+    background: white;
+    border-radius: 5px;
+}
+
+.last-home-banner {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/business-law-3.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.btn-start {
+    border-radius: 25px;
+    color: white;
+    border: 1px solid #f3a744;
+    background: #f3a744;
+    font-size: 20px;
+}
+
+.btn-start:hover {
+    color: #f3a744;
+    background: transparent;
 }
 
 .footer-area {
