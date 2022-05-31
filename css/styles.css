@@ -177,3 +177,14 @@ body p {
 .social-icons:hover {
     color: white;
 }
+
+.other-banners {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/about-law.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+    padding-top: 150px;
+}
+
+.card-image {
+    max-height: 400px;
+}
