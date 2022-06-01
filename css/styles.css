@@ -319,3 +319,23 @@ body p {
       height: 300px;
       width: 100%;
   }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #f3a744;
+    color: white;
+    cursor: pointer;
+    padding: 10px 17px 10px 17px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
