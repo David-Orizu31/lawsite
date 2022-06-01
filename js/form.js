@@ -5,11 +5,13 @@ $(function()
     {
         if(data.result == 'success')
         {
+            $('form#reused_form')[0].reset();
             $('#success_message').show();
             $('#error_message').hide();
         }
         else
         {
+            $('form#reused_form')[0].reset();
             $('#error_message').append('<ul></ul>');
 
             jQuery.each(data.errors,function(key,val)
