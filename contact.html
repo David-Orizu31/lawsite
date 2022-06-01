@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
     <!-- AOS CSS -->
     <link rel="stylesheet" href="aos/aos.css">
+        <!-- Google translator -->
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <!-- For Contact Form -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/form.js"></script>
   </head>
@@ -61,8 +64,12 @@
                     </li>
                 </ul>
                 <div class="d-flex my-2 my-lg-0">
-                    <!-- <input class="form-control me-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                    <div id="google_translate_element"></div>
+                    <script>
+                        function googleTranslateElementInit() {
+                            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'sv,en'}, 'google_translate_element');
+                        }
+                    </script>
                 </div>
             </div>
       </div>

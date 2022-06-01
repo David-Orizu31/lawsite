@@ -31,6 +31,40 @@ body p {
     color: #f3a744;
 }
 
+
+
+.goog-te-gadget .goog-te-combo {
+    margin: 0 !important;
+}
+
+.goog-te-combo{
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.goog-te-combo option {
+    background: #f3a744;
+    color: white;
+}
+
+.goog-logo-link {
+   display:none !important;
+}
+
+.goog-te-gadget{
+   color: transparent !important;
+   height: 30px;
+}
+
 .navbar {
     background: #383a3f;
 }

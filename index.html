@@ -22,7 +22,6 @@
     <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </head>
 
-  <style>#google_translate_element,.skiptranslate{display:none;}body{top:0!important;}</style>
   <body>
 
     <header class="site-header pt-1 pb-1 d-none d-lg-block">
@@ -65,10 +64,7 @@
                     <div id="google_translate_element"></div>
                     <script>
                         function googleTranslateElementInit() {
-                            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'it', autoDisplay: false}, 'google_translate_element');
-                            var a = document.querySelector("#google_translate_element select");
-                            a.selectedIndex=1;
-                            a.dispatchEvent(new Event('change'));
+                            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'sv,en'}, 'google_translate_element');
                         }
                     </script>
                 </div>
