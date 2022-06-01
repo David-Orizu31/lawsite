@@ -314,3 +314,8 @@ body p {
       color: white;
       background: #f3a744;
   }
+
+  .profile-image {
+      height: 300px;
+      width: 100%;
+  }

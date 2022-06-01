@@ -124,6 +124,39 @@
     </div>
 
 
+    <section class="pt-5">
+        <div class="container">
+        <div class="board-area">
+            <h2 class="text-center text-bold">Board of Directors</h2>
+            <div class="row justify-content-center">
+               <div class="col-lg-4 col-md-6 col-6 mt-3">
+                   <img src="img/profile-lawyer.jpg" alt="" class="img img-fluid profile-image">
+                
+                   <h5 class="text-bold mt-3">Alen Peters</h5>
+                   <h6 class="text-bold text-gold">Managing Partner</h6>
+                   <span>Board Member since 2009, Managing Partner since 2011.</span>
+               </div>
+
+               <div class="col-lg-4 col-md-6 col-6 mt-3">
+                <img src="img/profile-law-3.jpg" alt="" class="img img-fluid profile-image">
+                <h5 class="text-bold mt-3">Stephanie John</h5>
+                <h6 class="text-bold text-gold">Partner</h6>
+                <span>Board Member since 2011-2016,and since 2020. Chairman of the board since 2021.</span>
+            </div>
+
+               <div class="col-lg-4 col-md-6 col-6 mt-3">
+                <img src="img/profile-law-2.jpg" alt="" class="img img-fluid profile-image">
+                <h5 class="text-bold mt-3">Johnson Rodgers</h5>
+                <h6 class="text-bold text-gold">Partner</h6>
+                <span>Board Member since 2017,and since 2021. Vice Chairman of the board since 2022.</span>
+            </div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+
+  <br>
     <br>
 
     <div class="contact-banner">
@@ -135,48 +168,48 @@
                         <p class="text-gold text-center text-bold">Call us at +46 764916395 or fill out the form below to get in contact with us to see if we would be a good match for you and your business.</p>
 
                         
-                        <form action="" method="post">
-                           <div class="row">
-                               <div class="col-md-6">
-                                   <div class="form-group mt-3">
-                                       <label for="fname" class="form-label"><strong>First Name</strong></label>
-                                       <input type="text" class="form-control" id="fname" name="fname" required>
-                                   </div>
-                               </div>
-
-                               <div class="col-md-6">
-                                <div class="form-group mt-3">
-                                    <label for="lname" class="form-label"><strong>Last Name</strong></label>
-                                    <input type="text" class="form-control" id="lname" name="lname" required>
+                        <form method="post" action="contactprocess.php">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group mt-3">
+                                        <label for="first_name" class="form-label"><strong>First Name</strong></label>
+                                        <input type="text" class="form-control" id="first_name" name="first_name" required>
+                                    </div>
                                 </div>
+        
+                                <div class="col-md-6">
+                                 <div class="form-group mt-3">
+                                     <label for="last_name" class="form-label"><strong>Last Name</strong></label>
+                                     <input type="text" class="form-control" id="last_name" name="last_name" required>
+                                 </div>
+                             </div>
+        
+                             <div class="col-md-6">
+                                 <div class="form-group mt-3">
+                                     <label for="email" class="form-label"><strong>Email</strong></label>
+                                     <input type="email" class="form-control" id="email" name="email" required>
+                                 </div>
+                             </div>
+        
+                             <div class="col-md-6">
+                                 <div class="form-group mt-3">
+                                     <label for="phone" class="form-label"><strong>Phone Number</strong></label>
+                                     <input type="tel" class="form-control" id="phone" name="phone" required>
+                                 </div>
+                             </div>
+        
+                             <div class="col-md-12">
+                                 <div class="form-group mt-3">
+                                     <label for="desc" class="form-label"><strong>Overall description of your matter/question</strong></label>
+                                     <textarea name="description" id="desc" cols="30" rows="6" class="form-control" required></textarea>
+                                 </div>
+                             </div>
+        
+                             <div class="d-grid">
+                                 <button type="submit" class="btn btn-consult mt-4 py-2" id="submitform">Send</button>
+                             </div>
                             </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group mt-3">
-                                    <label for="email" class="form-label"><strong>Email</strong></label>
-                                    <input type="email" class="form-control" id="email" name="email" required>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="form-group mt-3">
-                                    <label for="phone" class="form-label"><strong>Phone Number</strong></label>
-                                    <input type="tel" class="form-control" id="phone" name="phone" required>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <div class="form-group mt-3">
-                                    <label for="desc" class="form-label"><strong>Overall description of your matter/question</strong></label>
-                                    <textarea name="desc" id="desc" cols="30" rows="6" class="form-control"></textarea>
-                                </div>
-                            </div>
-
-                            <div class="d-grid">
-                                <button type="submit" class="btn btn-consult mt-4 py-2">Send</button>
-                            </div>
-                           </div>
-                        </form>
+                         </form>
 
                     </div>
                 </div>
